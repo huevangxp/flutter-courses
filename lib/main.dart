@@ -1,3 +1,4 @@
+import 'package:courses/screens/auth/signinScreen.dart';
 import 'package:courses/screens/dashboard_screen.dart';
 import 'package:courses/screens/favorites_screen.dart';
 import 'package:courses/screens/home_screen.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         useMaterial3: true,
       ),
-      home: const SplashScreen(),
+      home: const SginInScreen(),
       routes: {
           '/home': (context) => HomeScreen(),
           '/dashboard': (context) => DashboardScreen(),
